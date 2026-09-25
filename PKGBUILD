@@ -10,7 +10,7 @@ pkgrel=39
 pkgdesc="NVIDIA drivers for linux, 340xx legacy branch"
 arch=('x86_64')
 url="https://www.nvidia.com/"
-makedepends=("nvidia-340xx-utils=${pkgver}" 'linux>=5.5' 'linux-headers>=5.5')
+makedepends=("nvidia-340xx-utils=${pkgver}" 'linux-lts>=5.5' 'linux-lts-headers>=5.5')
 conflicts=('nvidia')
 license=('custom')
 options=(!strip)
